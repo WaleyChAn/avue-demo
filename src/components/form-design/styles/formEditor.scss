@@ -1,0 +1,73 @@
+.themecud .el-container {
+  background: #fff !important;
+  height: 100%;
+}
+
+.themecud .el-aside {
+  background: #fff !important;
+}
+
+
+
+.avue-group /deep/ .el-collapse-item__header::before {
+  position: absolute;
+  content: "";
+  display: none;
+  width: 4px;
+  height: 100%;
+  background: #fff;
+  left: 0;
+  top: 0;
+}
+.avue-group /deep/  .el-collapse-item__header {
+  padding-left: 0 !important;
+  background-color: #fff !important;
+}
+
+.widget-config /deep/ .el-collapse-item__header::before {
+  position: absolute;
+  content: "";
+  display: none;
+  width: 4px;
+  height: 100%;
+  background: #fff;
+  left: 0;
+  top: 0;
+}
+
+.widget-config /deep/ .el-collapse-item__header {
+  padding-left: 0 !important;
+  background-color: #fff !important;
+}
+
+.themecud .el-radio-button__orig-radio:checked+.el-radio-button__inner {
+  background-color: #0c7bca;
+  border-color: #0c7bca;
+  color: #fff;
+}
+
+.themecud .widget-form-container /deep/ .el-button--primary {
+  color: #409eff !important;
+  background: #ecf5ff;
+  border-color: #b3d8ff;
+}
+
+.el-collapse-item__header.is-active {
+  border: none ;
+  margin-bottom: 6px;
+}
+
+.el-collapse {
+  border: none ;
+}
+
+.el-collapse-item__wrap {
+  border-top: none;
+}
+.el-scrollbar__view {
+  height: 100%;
+}
+// .el-input__inner {
+// border-radius: 4px!important;
+// }
+

@@ -1,2 +1,21 @@
-# avue-demo
-基于avue及vuedraggable制作的自定义表单页面，可进行表单编辑及表单属性编辑，包含自定义表单单项模板组件、表单组合模板组件。
+# avue-demo-for-vue2
+
+> demo
+
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+```
+
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
